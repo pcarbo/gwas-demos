@@ -10,7 +10,7 @@ n <- 200
 f <- 0.2 
 x <- (runif(n) < f) +
      (runif(n) < f)
-hist(x)
+barplot(table(x))
 
 # Simulate the phenotypes.
 # b is how much Y increases (on average) for each copy of the 1 allele.
